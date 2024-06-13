@@ -9,6 +9,12 @@
   .btn-secondary {
     @apply text-[#96BA7B] hover:text-[#3e523a] ease-in-out duration-500 cursor-pointer;
   }
+  .mainpage-content {
+    @apply flex flex-col-reverse justify-between items-center md:flex-row md:mt-[50px] lg:m-0;
+  }
+  .packages-section {
+    @apply h-screen flex flex-col justify-center md:flex-row m-auto items-center w-9/12 md:justify-between gap-4;
+  }
   .packages-card {
     @apply shadow-lg py-6 px-8 flex flex-col gap-4;
   }
