@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply text-white bg-[#96BA7B] hover:bg-[#3e523a] ease-in-out duration-500 py-3 w-[120px] rounded-lg font-semibold cursor-pointer;
+  }
+  .btn-secondary {
+    @apply text-[#96BA7B] hover:text-[#3e523a] ease-in-out duration-500 cursor-pointer;
+  }
+  .packages-card {
+    @apply shadow-lg py-6 px-8 flex flex-col gap-4;
+  }
+  .icons-bg {
+    @apply w-[50px] h-[50px] text-white bg-[#96BA7B] flex items-center justify-center rounded-lg;
+  }
+  .footer-container {
+    @apply flex flex-wrap justify-between w-9/12 m-auto py-8 gap-4;
+  }
+  .footer-sections {
+    @apply text-[#737373] font-semibold text-sm;
+  }
+  .footer-title {
+    @apply font-bold my-2 text-[#252b42] md:text-base;
+  }
+  .contact-info {
+    @apply flex items-center gap-2;
+  }
+  .contact-icons {
+    @apply text-[#96BA7B] text-2xl;
+  }
+}
